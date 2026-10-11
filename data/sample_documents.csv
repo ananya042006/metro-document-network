@@ -1,0 +1,33 @@
+document_id,title,department,project,date,document_type,topics,references,owner_role
+DOC-001,Train Operations Manual,Operations,Phase 1 Operations,2024-01-08,Procedure,train operations;passenger safety,,Operations Manager
+DOC-002,Station Control Room Handbook,Operations,Phase 1 Operations,2024-01-19,Procedure,train operations;station maintenance,DOC-001,Station Controller
+DOC-003,Daily Service Performance Report,Operations,Phase 1 Operations,2024-01-30,Report,train operations;audit,DOC-001;DOC-002,Operations Manager
+DOC-004,Platform Crowd Management Plan,Operations,Phase 1A Extension,2024-02-10,Plan,passenger safety;crowd management,DOC-001,Station Controller
+DOC-005,Signalling Maintenance Schedule,Signalling & Telecom,Phase 1 Operations,2024-02-21,Schedule,signalling;asset management,,Signalling Engineer
+DOC-006,CBTC Fault Log Summary,Signalling & Telecom,Phase 1 Operations,2024-03-03,Report,signalling;incident reporting,DOC-005,Signalling Engineer
+DOC-007,Telecom Network Inspection Record,Signalling & Telecom,Phase 1A Extension,2024-03-14,Record,telecom;asset management,DOC-005,Telecom Engineer
+DOC-008,Signalling Vendor Service Agreement,Signalling & Telecom,Digital Asset Management,2024-03-25,Contract,signalling;vendor contracts,DOC-005;DOC-006,Procurement Officer
+DOC-009,Rolling Stock Inspection Checklist,Electrical & Mechanical,Depot Modernisation,2024-04-05,Checklist,rolling stock;asset management,DOC-005;DOC-007,Maintenance Engineer
+DOC-010,Traction Power Maintenance Report,Electrical & Mechanical,Phase 1 Operations,2024-04-16,Report,power supply;asset management,DOC-007;DOC-009,Electrical Engineer
+DOC-011,Depot Equipment Overhaul Plan,Electrical & Mechanical,Depot Modernisation,2024-04-27,Plan,rolling stock;station maintenance,DOC-002;DOC-009,Maintenance Engineer
+DOC-012,Escalator and Lift Maintenance Log,Electrical & Mechanical,Phase 1A Extension,2024-05-08,Record,station maintenance;asset management,DOC-010;DOC-011,Maintenance Engineer
+DOC-013,Substation Safety Inspection,Electrical & Mechanical,Safety Upgrade Programme,2024-05-19,Record,power supply;fire safety,DOC-010,Electrical Engineer
+DOC-014,Track Inspection Record Q1,Civil & Track,Phase 1 Operations,2024-05-30,Record,track inspection;asset management,DOC-010;DOC-012,Track Engineer
+DOC-015,Viaduct Structural Health Report,Civil & Track,Phase 1A Extension,2024-06-10,Report,structural health;audit,DOC-003,Civil Engineer
+DOC-016,Track Maintenance Procedure,Civil & Track,Phase 1 Operations,2024-06-21,Procedure,track inspection;station maintenance,DOC-012;DOC-014,Track Engineer
+DOC-017,Depot Civil Works Progress Report,Civil & Track,Depot Modernisation,2024-07-02,Report,structural health;project progress,DOC-015,Project Manager
+DOC-018,Emergency Response Plan,Safety & Security,Safety Upgrade Programme,2024-07-13,Plan,emergency response;passenger safety,DOC-001;DOC-004,Safety Officer
+DOC-019,Fire Safety Audit Report,Safety & Security,Safety Upgrade Programme,2024-07-24,Report,fire safety;audit,DOC-013;DOC-015,Safety Officer
+DOC-020,Incident Summary Report Q2,Safety & Security,Phase 1 Operations,2024-08-04,Report,incident reporting;passenger safety,DOC-006;DOC-018,Safety Officer
+DOC-021,Evacuation Drill Procedure,Safety & Security,Safety Upgrade Programme,2024-08-15,Procedure,emergency response;training,DOC-018,Safety Officer
+DOC-022,Staff Safety Training Syllabus,Safety & Security,Safety Upgrade Programme,2024-08-26,Plan,training;passenger safety,DOC-020;DOC-021,Training Coordinator
+DOC-023,Security Screening Guidelines,Safety & Security,Phase 1 Operations,2024-09-06,Guideline,passenger safety;crowd management,DOC-020;DOC-022,Safety Officer
+DOC-024,Tender Notice: Track Fittings,Procurement,Phase 1A Extension,2024-09-17,Tender,tendering;track inspection,DOC-014;DOC-016,Procurement Officer
+DOC-025,Vendor Evaluation Report,Procurement,Depot Modernisation,2024-09-28,Report,vendor contracts;tendering,DOC-008;DOC-024,Procurement Officer
+DOC-026,Spare Parts Procurement Policy,Procurement,Digital Asset Management,2024-10-09,Policy,vendor contracts;asset management,DOC-014;DOC-025,Procurement Officer
+DOC-027,Rolling Stock Spares Contract,Procurement,Depot Modernisation,2024-10-20,Contract,vendor contracts;rolling stock,DOC-025;DOC-026,Procurement Officer
+DOC-028,Asset Register Standard,Administration,Digital Asset Management,2024-10-31,Standard,asset management;audit,DOC-019;DOC-026,Asset Manager
+DOC-029,Digital Document Retention Policy,Administration,Digital Asset Management,2024-11-11,Policy,audit;document control,DOC-019;DOC-028,Records Officer
+DOC-030,Project Progress Review Minutes,Administration,Phase 1A Extension,2024-11-22,Minutes,project progress;audit,DOC-028;DOC-029,Project Manager
+DOC-031,Annual Internal Audit Summary,Administration,Digital Asset Management,2024-12-03,Report,audit;incident reporting,DOC-029;DOC-030,Records Officer
+DOC-032,Document Control Procedure,Administration,Digital Asset Management,2024-12-14,Procedure,document control;asset management,DOC-028;DOC-029,Records Officer
